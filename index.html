@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f00ca871e5.js" crossorigin="anonymous"></script>
+    <title>Cadrado Store</title>
+</head>
+<body onload="iniciarloja">
+    <header id="header">
+        <div class="header-logo">
+            <h1>Cadrado<span>Store</span></h1>
+        </div>
+        <div class="searchbar"> 
+            <div class="searchbarbox">
+                <label for="searchtxt">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+                <input type="search" name="" id="searchtxt">
+                <div class="clearbtn hide">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div>
+                    <ul id="listSearch"></ul>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div id="themebtn">
+                <i id="ligthTheme" class="fa-regular fa-sun hide"></i>
+                <i id="darkTheme" class="fa-solid fa-sun"></i>
+            </div>
+            <div id="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="header-list">
+                <li><i class="fa-solid fa-headset navIcon"></i>Suporte</li>
+                <li><i class="fa-solid fa-user navIcon"></i>Entrar</li>
+            </ul>
+        </nav>
+
+        <i id="cart" class="fa-solid fa-cart-shopping cartIcon"></i>
+        <div id="cartcard-container">
+            <div class="cart-window-content hide">
+                <h2 class="cart-title">carrinho</h2>
+                <div id="cart-window"></div>
+                <div class="cart-window-bottom">
+                    <p>total</p>
+                    <span class="total-priceSpan">0</span>
+                    <button class="cart-btn">
+                        <i class="fa-solid fa-trash-can cart-btn-icon"></i>limpar carrinho
+                    </button>
+                </div>
+            </div>
+        </div><!--cart-->
+    </header>
+    
+    <main id="main">
+        <div id="products">
+        </div> <!--Produtos-->
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

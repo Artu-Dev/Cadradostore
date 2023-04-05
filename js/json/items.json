@@ -1,0 +1,67 @@
+{
+    "items" : [
+        {
+            "id": 0,
+            "nome": "maconha na maconha",
+            "img": "img/catnip.jpg",
+            "quantidade": 0,
+            "price": 12
+        },
+        {
+            "id": 1,
+            "nome": "manteiga",
+            "img": "img/manteiga.jpg",
+            "quantidade": 0,
+            "price": 7
+        },
+        {
+            "id": 2,
+            "nome": "cesio-137",
+            "img": "img/cesio.jpg",
+            "quantidade": 0,
+            "price": 88
+        },
+        {
+            "id": 3,
+            "nome": "metanfetamina",
+            "img": "img/metanfetamina.jpg",
+            "quantidade": 0,
+            "price": 89
+        },
+        {
+            "id": 4,
+            "nome": "Clube do Zap",
+            "img": "img/clube do zap.png",
+            "quantidade": 0,
+            "price": 24.5
+        },
+        {
+            "id": 5,
+            "nome": "Gato Homossexual",
+            "img": "img/homosexual.jpg",
+            "quantidade": 0,
+            "price": 69.69
+        },
+        {
+            "id": 6,
+            "nome": "Conhecimento",
+            "img": "img/conhecumento.jpg",
+            "quantidade": 0,
+            "price": 42
+        },
+        {
+            "id": 7,
+            "nome": "Maçã",
+            "img": "img/maca.jpg",
+            "quantidade": 0,
+            "price": 2.25
+        },
+        {
+            "id": 8,
+            "nome": "Tyler o criador",
+            "img": "img/tyler.jpg",
+            "quantidade": 0,
+            "price": 18
+        }
+    ]
+}
