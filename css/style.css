@@ -84,91 +84,6 @@ header .header-logo span {
     color: var(--clr-orange02);
 }
 
-header .searchbar{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-header .searchbar .searchbarbox {
-    background: var(--clr-white01b);
-    color: var(--clr-black);
-    height: 70%;
-    width: 50%;  
-    margin-left: 2rem;
-    border-radius: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: relative;
-}
-
-header .searchbar input {
-    color: var(--clr-black);
-    background: none;
-    border: none;
-    outline: none;
-    font-size: 1.5em;
-    padding-left: 3rem;
-    height: 100%;
-    width: 85%;
-}
-
-header .searchbar .clearbtn {
-    font-size: 1.2em;
-    height: 100%;
-    width: 5%;
-    color: var(--clr-orange02);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-    display: none;
-}
-
-header .searchbar label {
-    position: absolute;
-    left: 1rem;
-    font-size: 1.3em;
-    margin-left: 0.5rem;
-}
-
-#listSearch {
-    list-style: none;
-    background: var(--clr-white01);
-    border: var(--clr-green02) solid 2px;
-    border-top: none;
-    border-radius: 0 0 10px 10px;
-    position: absolute;
-    width: 90%;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%);
-    z-index: -1;
-    filter: brightness(90%);
-}
-
-.SearchItem {
-    color: var(--clr-black);
-    height: 50px;
-    font-size: 1.5em;
-    font-weight: 300;
-    font-family: 'Oswald', sans-serif;
-    padding-left: 1.5rem;
-}
-
-.SearchItem:hover {
-    background: var(--clr-orange02);
-    color: var(--clr-white01);
-}
-
 header #menu {
     display: none;
     font-size: 2em;
@@ -194,6 +109,7 @@ header nav ul li,
     padding: 1rem 1.5rem;
     font-size: 1.3em;
     color: var(--clr-green03);
+    cursor: pointer;
 }
 
 header nav ul li .navIcon{
@@ -203,8 +119,13 @@ header nav ul li .navIcon{
 header nav ul li .hide {
     display: none;
 }
+/* 
+@media screen and (max-width: ) {
+    
+} */
 
-header nav ul li:hover{
+header nav ul li:hover,
+#themebtn:hover {
     transition: all ease .5s;
     background: var(--clr-black);
     color: var(--clr-orange02);
@@ -280,6 +201,7 @@ img {
     right: 3rem;
     top: 5rem;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 .cart-title {
@@ -474,9 +396,6 @@ main {
         font-size: .7rem;
         height: 2.5rem;
     }
-    header .searchbar {
-        display: none;
-    }
 
     header #menu {
         display: flex;
@@ -518,15 +437,6 @@ main {
         font-size: .9rem;
         height: 2.5rem;
     }
-    header .searchbar {
-        display: none;
-    }
-
-    @media screen and (min-width: 625px) {
-        header .searchbar {
-            display: flex;
-        }
-    }
 
     #cart-window {
         height: 250px;
@@ -543,7 +453,7 @@ main {
     }
 
     .cart-window-content {
-        width: 350px;
+        max-width: 350px;
         max-height: 400px;
         right: 2rem;
     }
