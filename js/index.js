@@ -58,14 +58,19 @@ function printProducts(items) {
     atualizarCart();
     items.forEach((item) => {
         const container = document.createElement('div');
-        const productImage = document.createElement('img');
+        const productContainer = document.createElement('div');
         const productPrice = document.createElement('span');
         const productName = document.createElement('h2');
         const productAddCartBtn = document.createElement('a');
         const productCartIcon = document.createElement('i');
+        
+        item.img.forEach(imgSrc => {
+            const productImage = document.createElement('img');
+            productImage.setAttribute('src', imgSrc);
+            productImage.setAttribute('loading', 'lazy');
+            productContainer.appendChild(productImage);
+        });
 
-        productImage.setAttribute('src', item.img);
-        productImage.setAttribute('loading', 'lazy');
         productAddCartBtn.setAttribute("id", "addCart");
 
         productAddCartBtn.textContent = "Adicionar ao carrinho";
@@ -74,8 +79,9 @@ function printProducts(items) {
 
         container.classList.add("product-single");
         productCartIcon.classList.add("fa-solid", "fa-cart-plus");
+        productContainer.classList.add("product-images-container")
 
-        container.appendChild(productImage);
+        container.appendChild(productContainer);
         container.appendChild(productPrice);
         container.appendChild(productName);
         productAddCartBtn.insertBefore(productCartIcon, productAddCartBtn.firstChild);
@@ -109,7 +115,7 @@ function printCartProducts(item) {
     itemDataContainer.classList.add('item-data');
     itemCartQuantSpan.classList.add('quantidade-span');
 
-    itemCartImage.setAttribute('src', item.img)
+    itemCartImage.setAttribute('src', item.img[0])
     itemCartName.textContent = item.nome;
     itemCartQuant.textContent = "Quantidade: ";
     itemCartQuantSpan.textContent = item.quantidade;

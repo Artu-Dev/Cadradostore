@@ -2,136 +2,144 @@
     "items": [
         {
             "id": 0,
-            "nome": "Quadro de Casa",
-            "img": "https://api.lorem.space/image/house?w=600&h=600&id=0",
+            "nome": "Cadeira Preta com rodas",
+            "img": [
+                "./img/01/71QqGEf5XdL._SL1500_.webp",
+                "./img/01/61WHpUMDCrL._SL1500_.webp",
+                "./img/01/61JrVX1khrL._SL1500_.webp",
+                "./img/01/6111NRuTVkL._SL1500_.webp"
+            ],
             "quantidade": 0,
             "price": 25.99
         },
         {
             "id": 1,
-            "nome": "Livro",
-            "img": "https://api.lorem.space/image/book?w=600&h=600&id=1",
+            "nome": "Cadeira peluda",
+            "img": [
+                "./img/02/aesthetic_cloud_chair_designs_1680186157_8720b3cb_progressive.webp",
+                "./img/02/aesthetic_cloud_chair_designs_1680186157_f1db5cbd_progressive.webp"
+            ],
             "quantidade": 0,
             "price": 15.5
         },
         {
             "id": 2,
-            "nome": "Relogio de novo",
-            "img": "https://api.lorem.space/image/watch?w=600&h=600&id=2",
+            "nome": "Cadeira Amarela muito cara",
+            "img": [
+                "./img/03/aesthetic-fabric-iconic-chair-in-yellow-colour-aesthetic-fabric-iconic-chair-in-yellow-colour-46vdrx.webp",
+                "./img/03/aesthetic-fabric-iconic-chair-in-yellow-colour-aesthetic-fabric-iconic-chair-in-yellow-colour-kiutxf.webp",
+                "./img/03/aesthetic-fabric-iconic-chair-in-yellow-colour-aesthetic-fabric-iconic-chair-in-yellow-colour-vcmb7d.webp"
+            ],
             "quantidade": 0,
-            "price": 49.99
+            "price": 499.99
         },
         {
             "id": 3,
-            "nome": "Mais Um Relogio",
-            "img": "https://api.lorem.space/image/watch?w=600&h=600&id=3",
+            "nome": "Cadeira Meio Feia",
+            "img": [
+                "./img/04/aesthetic-iconic-chair-in-multicolour-by-pansy-furniture-aesthetic-iconic-chair-in-multicolour-by-pa-c89grf.webp",
+                "./img/04/aesthetic-iconic-chair-in-multicolour-by-pansy-furniture-aesthetic-iconic-chair-in-multicolour-by-pa-jwjbem.webp",
+                "./img/04/aesthetic-iconic-chair-in-multicolour-by-pansy-furniture-aesthetic-iconic-chair-in-multicolour-by-pa-kjd5zm.webp",
+                "./img/04/aesthetic-iconic-chair-in-multicolour-by-pansy-furniture-aesthetic-iconic-chair-in-multicolour-by-pa-nzhfim.webp",
+                "./img/04/aesthetic-iconic-chair-in-multicolour-by-pansy-furniture-aesthetic-iconic-chair-in-multicolour-by-pa-uj7muh.webp"
+            ],
             "quantidade": 0,
             "price": 299.99
         },
         {
             "id": 4,
-            "nome": "Colar de Pérolas",
-            "img": "https://api.lorem.space/image/fashion?w=600&h=600&id=4",
+            "nome": "Cadeira Emo",
+            "img": [
+                "./img/05/aesthetic-chair-in-black-matte-finish-by-pansy-furniture-aesthetic-chair-in-black-matte-finish-by-pa-erezc1.webp",
+                "./img/05/aesthetic-chair-in-black-matte-finish-by-pansy-furniture-aesthetic-chair-in-black-matte-finish-by-pa-fwjgbq.webp",
+                "./img/05/aesthetic-chair-in-black-matte-finish-by-pansy-furniture-aesthetic-chair-in-black-matte-finish-by-pa-k7kwug.webp",
+                "./img/05/aesthetic-chair-in-black-matte-finish-by-pansy-furniture-aesthetic-chair-in-black-matte-finish-by-pa-ydyane.webp"
+            ],            
             "quantidade": 0,
             "price": 79.99
         },
         {
             "id": 5,
-            "nome": "Relógio lindo",
-            "img": "https://api.lorem.space/image/watch?w=600&h=600&id=1",
+            "nome": "Cadeira Gamer branca",
+            "img": [
+                "./img/06/Enosburg+Executive+Chair.webp",
+                "./img/06/Enosburg+Executive+Chair (1).webp",
+                "./img/06/Enosburg+Executive+Chair (2).webp",
+                "./img/06/Enosburg+Executive+Chair (3).webp"
+            ],                 
             "quantidade": 0,
             "price": 89.99
         },
         {
             "id": 6,
-            "nome": "Conjunto de moda",
-            "img": "https://api.lorem.space/image/fashion?w=600&h=600&id=6",
+            "nome": "Cadeira desconfortavel",
+            "img": [
+                "./img/07/Harland+Task+Chair.webp",
+                "./img/07/Harland+Task+Chair (1).webp",
+                "./img/07/Harland+Task+Chair (2).webp",
+                "./img/07/Harland+Task+Chair (3).webp"
+            ],             
             "quantidade": 0,
             "price": 12.99
         },
         {
             "id": 7,
-            "nome": "Drink elegante",
-            "img": "https://api.lorem.space/image/drink?w=600&h=600&id=7",
+            "nome": "Cadeira sem graça",
+            "img": [
+                "./img/08/Rosenbalm+Side+Chair.webp",
+                "./img/08/Rosenbalm+Side+Chair (1).webp",
+                "./img/08/Rosenbalm+Side+Chair (2).webp"
+            ],               
             "quantidade": 0,
             "price": 8.99
         },
         {
             "id": 8,
-            "nome": "Relogio Descolado",
-            "img": "https://api.lorem.space/image/watch?w=600&h=600&id=8",
+            "nome": "Cadeira de concreto",
+            "img": [
+                "./img/09/chair_none_concrete_1.webp",
+                "./img/09/chair_none_concrete_2.webp",
+                "./img/09/chair_none_concrete_3.webp",
+                "./img/09/chair_none_concrete_5.webp"
+            ],                
             "quantidade": 0,
             "price": 19.99
         },
         {
             "id": 9,
-            "nome": "Relógio de Pulso",
-            "img": "https://api.lorem.space/image/watch?w=600&h=600&id=9",
+            "nome": "Cadeira de Prismarinho",
+            "img": [
+                "./img/10/513bwmI3QdL.webp",
+                "./img/10/31ODoTxOOLL.webp",
+                "./img/10/41pkpdQGNnL.webp",
+                "./img/10/51HcW9D-6pL.webp",
+                "./img/10/Dark_Prismarine_JE2_BE2.webp"
+            ],              
             "quantidade": 0,
             "price": 99.99
         },
         {
             "id": 10,
-            "nome": "Jogo de Copos",
-            "img": "https://api.lorem.space/image/drink?w=600&h=600&id=10",
+            "nome": "Banco Florido de vó",
+            "img": [
+                "./img/11/71FK6MznWgL._SL1500_.webp",
+                "./img/11/81mGvsB4kuL._SL1500_.webp",
+                "./img/11/911jF6nI0ZL._SL1500_.webp"
+            ],              
             "quantidade": 0,
             "price": 39.99
         },
         {
             "id": 11,
             "nome": "Óculos de Sol",
-            "img": "https://api.lorem.space/image/fashion?w=600&h=600&id=11",
+            "img": [
+                "./img/12/41X38p8tTnL.webp",
+                "./img/12/51AhXSR35qL (1).webp",
+                "./img/12/51AhXSR35qL.webp",
+                "./img/12/51f1ecLdyXL.webp"
+            ],              
             "quantidade": 0,
             "price": 69.99
-        },
-        {
-            "id": 12,
-            "nome": "Chapéu de Praia",
-            "img": "https://api.lorem.space/image/fashion?w=600&h=600&id=12",
-            "quantidade": 0,
-            "price": 29.99
-        },
-        {
-            "id": 13,
-            "nome": "Fone de Ouvido Bluetooth",
-            "img": "https://api.lorem.space/image/fashion?w=600&h=600&id=13",
-            "quantidade": 0,
-            "price": 79.99
-        },
-        {
-            "id": 14,
-            "nome": "O mesmo relogio mas com preço diferente",
-            "img": "https://api.lorem.space/image/watch?w=600&h=600&id=14",
-            "quantidade": 0,
-            "price": 39.99
-        },
-        {
-            "id": 15,
-            "nome": "Sapato Social",
-            "img": "https://api.lorem.space/image/shoes?w=600&h=600&id=15",
-            "quantidade": 0,
-            "price": 129.99
-        },
-        {
-            "id": 16,
-            "nome": "Smart Watch",
-            "img": "https://api.lorem.space/image/watch?w=600&h=600&id=16",
-            "quantidade": 0,
-            "price": 49.99
-        },
-        {
-            "id": 17,
-            "nome": "Par de Brincos 2pcs",
-            "img": "https://api.lorem.space/image/fashion?w=600&h=600&id=17",
-            "quantidade": 0,
-            "price": 89.99
-        },
-        {
-            "id": 18,
-            "nome": "Pulseira",
-            "img": "https://api.lorem.space/image/fashion?w=600&h=600&id=18",
-            "quantidade": 0,
-            "price": 79.99
         }
     ]
 }
